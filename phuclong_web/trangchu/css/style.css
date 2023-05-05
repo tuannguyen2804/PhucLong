@@ -1,0 +1,299 @@
+#trangchu{
+    width: 1880px;
+    height: 2697px;
+}
+
+.menu{
+    width: 1880px;
+    height: 125px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm01 img{
+    width: 165px;
+    height: 41px;
+    margin-left: 184px;
+    margin-top: 38px;
+}
+
+.tm02 img{
+    width: 78px;
+    height: 67px;
+    margin-top: 15px;
+}
+
+.tm03{
+    margin-top: 20px;
+    display: flex;
+}
+
+.tm03 p{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.tm03 button{
+    margin-top: 16px;
+    width: 135px;
+    height: 42px;
+    background-color: white;
+    color: #00CC00;
+    border: 1px solid black;
+}
+
+.menu2{
+    display: flex;
+    margin-left: 320px;
+    justify-content: space-between;
+}
+
+.menu2_1{
+    display: flex;
+    width: 1880px;
+}
+
+.menu2_1 li{
+    list-style: none;
+    margin-right: 70px;
+}
+
+.menu2_1 img{
+    margin-top: -10px;
+    width: 37px;
+    height: 39px;
+}
+
+.menu2_1 a{
+    color: black;
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu2_1 a:hover{
+    color: #339900;
+}
+
+.menu2_1 .nhapchon{
+    color: #00CC00;
+}
+
+/* Slide */
+
+#slide{
+    width: 1880px;
+    height: 500px;
+    position: relative;
+}
+
+#slide img{
+    width: 1880px;
+    height: 500px;
+}
+
+#slide .fa-chevron-circle-left{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    font-size: 32px;
+    color: grey;
+}
+
+#slide .fa-chevron-circle-right{
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    font-size: 32px;
+    color: grey;
+}
+
+/* Giới thiệu */
+.gioithieu{
+    margin-top: 20px;
+    width: 1880px;
+    height: 626px;
+    display: flex;
+    
+}
+
+.gioithieu img{
+    width: 522px;
+    height: 519px;
+    margin-left: 370px;
+    margin-top: 69px;
+}
+
+.gt01{
+    width: 724px;
+    height: 519px;
+}
+
+.gioithieu h3{
+    margin-left: 155px;
+    margin-top: 130px;
+    color: #3DA908;
+}
+
+.gioithieu p{
+    margin-left: 155px;
+    margin-top: 30px;
+}
+
+.gioithieu button{
+    width: 119px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 155px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.gioithieu button:hover{
+    background-color: #339900;
+    color: white;
+}
+
+.gioithieu1{
+    display: flex;
+    width: 1880px;
+    height: 626px;
+}
+
+.gioithieu1 h3{
+    margin-top: 130px;
+    margin-left: 370px;
+    color: #3DA908;
+}
+
+.gioithieu1 p{
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+.gioithieu1 button{
+    width: 321px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #3DA908;
+    margin-left: 370px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.gioithieu1 button:hover{
+    background-color: #339900;
+    color: white;
+}
+
+.gioithieu1 img{
+    width: 522px;
+    height: 519px;
+    margin-left: 205px;
+    margin-top: 69px;
+}
+
+/* Liên hệ */
+#lienhe{
+    width: 1880px;
+    height: 451px;
+    background-color: #049D2F;
+}
+
+#lienhe h2{
+    color: white;
+}
+
+#lh_title{
+    margin-left: 82px;
+}
+
+.lh01{
+    margin-top: 50px;
+    margin-left: 82px;
+}
+
+.lh01 select{
+    width: 230px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #049D2F;
+    border: 1px solid white;
+    color: white;
+}
+
+.lh_chid{
+    display: flex;
+}
+
+.lh_chid p{
+    color: white;
+    margin-left: 82px;
+}
+
+.lh_chid button{
+    width: 229px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #049D2F;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.lh_chid button:hover{
+    border: 1px solid red;
+}
+
+/* footer */
+#footer{
+    width: 1880px;
+    height: 413px;
+    margin-left: 366px;
+    margin-top: 80px;
+    display: flex;
+}
+
+#ft1{
+    width: 683px;
+    height: 367px;
+}
+
+#ft1 p{
+    margin-top: -10px;
+}
+
+#ft2{
+    width: 335px;
+    height: 222px;
+}
+
+#ft2 input{
+    width: 201px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ft2 button{
+    width: 57px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ft2 button:hover{
+    background-color: #339900;
+    color: white;
+    border: 1px solid white;
+}
