@@ -1,0 +1,445 @@
+/* LÁ TRÀ PHÚC LONG */
+body{
+    width: 1880px;
+    height: 4306px;
+}
+
+.tra{
+    width: 1880px;
+    height: 4306px;
+}
+
+.menu{
+    width: 1880px;
+    height: 125px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm01 img{
+    width: 165px;
+    height: 41px;
+    margin-left: 184px;
+    margin-top: 38px;
+}
+
+.tm02 img{
+    width: 78px;
+    height: 67px;
+    margin-top: 15px;
+}
+
+.tm03{
+    margin-top: 20px;
+    display: flex;
+}
+
+.tm03 p{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.tm03 button{
+    margin-top: 16px;
+    width: 135px;
+    height: 42px;
+    background-color: white;
+    color: #00CC00;
+    border: 1px solid black;
+}
+
+.menu2{
+    display: flex;
+    margin-left: 320px;
+    justify-content: space-between;
+}
+
+.menu2_1{
+    display: flex;
+    width: 1880px;
+}
+
+.menu2_1 li{
+    list-style: none;
+    margin-right: 70px;
+}
+
+.menu2_1 img{
+    margin-top: -10px;
+    width: 37px;
+    height: 39px;
+}
+
+.menu2_1 a{
+    color: black;
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu2_1 a:hover{
+    color: #339900;
+}
+
+.menu2_1 .nhapchon{
+    color: #00CC00;
+}
+/* Slide */
+
+.slide{
+    width: 1880px;
+    height: 500px;
+    position: relative;
+}
+
+.slide img{
+    width: 1880px;
+    height: 500px;
+}
+
+/* Thông tin */
+.thongtin{
+    width: 1880px;
+    height: 309px;
+}
+
+.tt1{
+    width: 326px;
+    height: 26px;
+    display: flex;
+    margin-left: 820px;
+    margin-top: 20px;
+}
+
+.tt1 p{
+    margin-left: 15px;
+}
+
+.tt1_1 p{
+    color: gray;
+}
+
+.tt2{
+    width: 424px;
+    height: 81px;
+    margin-left: 820px;
+    margin-top: 30px;
+    color: #456734;
+}
+
+.tt3{
+    width: 284px;
+    height: 40px;
+    margin-left: 795px;
+    margin-top: -30px;
+}
+
+.tt4{
+    display: flex;
+    margin-left: 620px;
+    margin-top: 20px;
+    width: 1131px;
+    height: 67px;
+}
+
+.tt4 h3{
+    margin-left: 25px;
+    color: black;
+}
+
+.tt4 a{
+    text-decoration: none;
+}
+
+.tt4_1{
+    margin-left: 50px;
+    width: 270px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.tt4_1 h3{
+    color: #339900;
+    margin-left: 35px;
+}
+
+/* LỰA CHỌN LOẠI TRÀ */
+.lcloaitra{
+    width: 1880px;
+    height: 2947px;
+}
+
+.lc1{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc1_text{
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+.lc1_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc1_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc1 img{
+    width: 450px;
+    height: 396px;
+}
+
+.lc2{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc2 img{
+    width: 448px;
+    height: 392px;
+}
+
+.lc2_text{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.lc2_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc2_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc3{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc3_text{
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+.lc3_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc3_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc3 img{
+    width: 450px;
+    height: 396px;
+}
+
+.lc4{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc4 img{
+    width: 448px;
+    height: 392px;
+}
+
+.lc4_text{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.lc4_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc4_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc5{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc5_text{
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+.lc5_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc5_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc5 img{
+    width: 450px;
+    height: 396px;
+}
+
+.lc6{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc6 img{
+    width: 448px;
+    height: 392px;
+}
+
+.lc6_text{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.lc6_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc6_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc7{
+    width: 1880px;
+    height: 421px;
+    display: flex;
+    margin-left: 420px;
+}
+
+.lc7_text{
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+.lc7_text button{
+    width: 146px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.lc7_text button:hover{
+    background-color: #00CC00;
+    color: white;
+}
+
+.lc7 img{
+    width: 450px;
+    height: 396px;
+}
+
+/* footer */
+#footer{
+    width: 1880px;
+    height: 283px;
+    margin-left: 366px;
+    margin-top: 80px;
+    display: flex;
+}
+
+#ft1{
+    width: 683px;
+    height: 367px;
+}
+
+#ft1 p{
+    margin-top: -10px;
+}
+
+#ft2{
+    width: 335px;
+    height: 222px;
+}
+
+#ft2 input{
+    width: 201px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ft2 button{
+    width: 57px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ft2 button:hover{
+    background-color: #339900;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* Bản quyền */
+.banquyen{
+    width: 1880px;
+    height: 23px;
+    background-color: black;
+}
+
+.banquyen p{
+    width: 329px;
+    height: 19px;
+    margin-left: 774px;
+    color: white;
+}
