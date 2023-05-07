@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhucLong</title>
+    <link rel="stylesheet" href="css/thucUong.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+   
+</head>
+
+<body>
+    <div class="container">
+        <!-- Menu -->
+        <div class="menu">
+            <!-- menu phần logo -->
+            <div class="menu1">
+                <div class="tm01">
+                    <img src="img/lienhe.png" alt="">
+                </div>
+                <div class="tm02">
+                    <img src="img/logo2.jpg" alt="">
+                </div>
+                <div class="tm03">
+                    <p>Đăng nhập</p>
+                    <p>VN | EN</p>
+                    <Button>Giỏ hàng</Button>
+                </div>
+            </div>
+            <hr>
+            <!-- menu control -->
+            <div class="menu2">
+                <ul class="menu2_1">
+                    <li><a href="/trangchu/index.html">TRANG CHỦ</a></li>
+                    <li><a href="/caphe/p_1/index.html">CÀ PHÊ</a></li>
+                    <li><a href="/tra/p_1/index.html">TRÀ</a></li>
+                    <li><a href="/thucUong/p_1/thucUong.html">THỨC UỐNG</a></li>
+                    <li><a href="/sanPham/sanPham.html">SẢN PHẨM</a></li>
+                    <li><a href="/khuyenmai/index.html">KHUYẾN MÃI</a></li>
+                    <li><a href="/veChungToi/veChungToi.html">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="#">THẺ</a></li>
+                    <li><a href="#"><img src="img/tải xuống.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <hr style="margin-top: 30px;">
+        <!-- Slide -->
+        <div id="slide">
+            <img src="img/anhnen1.jpg" alt="" id="hinh">
+            <i class="fa fa-chevron-circle-left" onclick="prev()"></i>
+            <i class="fa fa-chevron-circle-right" onclick="next()"></i>
+        </div>
+        <div class="menu3">
+            <ul>
+                <li>
+                    <a href="">Trang chủ</a>/
+                    <a style="color:  black;" href="">Thức uống</a>
+                </li>
+            </ul>
+        </div>
+        <div class="title">
+            <p>THỨC UỐNG</p>
+        </div>
+        <div class="menu4">'
+            <ul>
+                <li>
+                    <a style="color: #0C713D;" href="thucUong.html">THỨC UỐNG</a>
+                    <a href="/thucUong/p_2/snacks.html">SNACKS</a>
+                    <a href="/thucUong/p_3/bakery.html">BAKERY</a>
+                </li>
+            </ul>
+        </div>
+        <div class="phanLoai">
+            <div class="nhom">
+                <p><b>Nhóm sản phẩm</b></p>
+                <input type="search" id="search" placeholder="Chọn nhóm" />
+            </div>
+            <div class="theoGia">
+                <p><b>Theo giá</b></p>
+                <input type="search" id="search" placeholder="Không lựa chọn" />
+            </div>
+            <div class="timKiem">
+                <p><b>Tìm kiếm</b></p>
+                <input type="search" id="search" placeholder="Tên sản phẩm" />
+                <button><img src="img/search.png" alt=""></button>
+            </div>
+        </div>
+        <div class="list">
+            <div class="list1">
+                <div class="T_U">
+                    <div class="infor">
+                        <p><b>Hồng Trà Caramel 
+                        <br>Dừa Đá Xay</b></p>
+                        <p style="color: #0C713D;"><b>70.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <img src="img/tu1.png" alt="">
+                </div>
+                <div class="T_U1">
+                    <img src="img/tu2.png" alt="">
+                    <p><b>Hồng Trà Sữa Carame</b></p>
+                    <p style="color: #0C713D;"><b> 55.000 đ</b></p>
+                    <Button>ĐẶT HÀNG</Button>
+                </div>
+                <div class="T_U1">
+                    <img src="img/tu3.png" alt="">
+                    <p><b>Trà Ô Long Dừa Caramel</b></p>
+                    <p style="color: #0C713D;"><b>55.000 đ</b></p>
+                    <Button>ĐẶT HÀNG</Button>
+                </div>
+            </div>
+            <div class="list2">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="img/tu4.png" alt="">
+                        <p><b>Trà ô Long Mãng Cầu</b></p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu5.png" alt="">
+                        <p><b>  Hồng Trà Chanh</b></p>
+                        <p>Lime Black Tea</p>
+                        <p style="color: #0C713D;"><b>35.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu6.png" alt="">
+                        <p><b>Trà Sữa Matcha</b></p>
+                        <p>Matcha Milk Tea</p>
+                        <p style="color: #0C713D;"><b>40.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu7.png" alt="">
+                        <p><b>  Hồng Trà Đào Sữa</b></p>
+                        <p>Peach Black Milk Tea</p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu8.png" alt="">
+                        <p><b>Chanh Đá Xay</b></p>
+                        <p>Lime Ice Blended</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu9.png">
+                        <p><b>  Matcha Đá Xay</b></p>
+                        <p>Matcha Ice Blended</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu10.png" alt="">
+                        <p><b> Oreo Cà Phê Sữa Đá Xay</b></p>
+                        <p>Oreo Espresso Ice Blended</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu11.png" alt="">
+                        <p><b> Cà Phê Đá Xay</b></p>
+                        <p>Espresso Ice Blended</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu12.png" alt="">
+                        <p><b>Trà Sữa Berry Berry</b></p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu13.png">
+                        <p><b>  Trà Đào Đá Xay</b></p>
+                        <p>Peach Tea</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu14.png" alt="">
+                        <p><b>Sữa Chua Phúc Bồn Tử 
+                            <br>Đác Cam</b></p>
+                        <p> Raspberry Yogurt with 
+                            <br>Orange Dac Seed</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu15.png" alt="">
+                        <p><b>Sữa Chua Xoài Đác Thơm</b></p>
+                        <p>Mango Yogurt with Pineapple 
+                            <br>Dac Seed</p>
+                        <p style="color: #0C713D;"><b>60.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu16.png" alt="">
+                        <p><b>Cappuccino</b></p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu17.png" alt="">
+                        <p><b>Hồng Trà Đác Cam Đá Xay</b></p>
+                        <p>Orange Dac Seed Black Tea
+                            <br>Ice Blended</p>
+                        <p style="color: #0C713D;"><b>70.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu18.png" alt="">
+                        <p><b>Hoa Tuyết Berry Berry</b></p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu19.png" alt="">
+                        <p><b>Latte</b></p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu20.png" alt="">
+                        <p><b>Phin Sữa Đá</b></p>
+                        <p style="color: #0C713D;"><b>35.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu21.png" alt="">
+                        <p><b>Phin Đen Đá</b></p>
+                        <p style="color: #0C713D;"><b>30.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu22.png" alt="">
+                        <p><b>  Trà Lài Đác Thơm</b></p>
+                        <p> Pineapple Dac Seed Jasmine Tea</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu23.png" alt="">
+                        <p><b>Trà Nhãn Sen</b></p>
+                        <p>Longan Lotus Tea</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu24.png" alt="">
+                        <p><b>Trà Vải Lài</b></p>
+                        <p>Lychee Jasmine Tea</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu25.png" alt="">
+                        <p><b>Lucky Tea</b></p>
+                        <p>Lucky Tea</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu26.png" alt="">
+                        <p><b>Hồng Trà Sữa</b></p>
+                        <p>Black Milk Tea</p>
+                        <p style="color: #0C713D;"><b>40.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu27.png" alt="">
+                        <p><b>Vanilla Latte</b></p>
+                        <p>Vanilla Latte</p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu28.png" alt="">
+                        <p><b>  Hồng Trà Đào</b></p>
+                        <p> Peach Black Tea</p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu29.png" alt="">
+                        <p><b>Trà Sữa Phúc Long</b></p>
+                        <p>Phuc Long Milk Tea</p>
+                        <p style="color: #0C713D;"><b>40.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu30.png" alt="">
+                        <p><b>Trà Ô Long Dâu</b></p>
+                        <p>Strawberry Oolong Tea</p>
+                        <p style="color: #0C713D;"><b>50.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="img/tu31.png" alt="">
+                        <p><b>Trà Ô Long Sữa</b></p>
+                        <p>Oolong Milk Tea</p>
+                        <p style="color: #0C713D;"><b>45.000 đ</b></p>
+                        <Button>ĐẶT HÀNG</Button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="ft1">
+                <p>
+                    <b>Trụ sở chính:</b> Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719 <br>
+                    do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021
+                </p>
+                <p>
+                    <b>Nhà máy:</b> D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường <br> Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam
+                </p>
+                <p>
+                    <b>Địa chỉ:</b> Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, <br> phường Bến Nghé, quận 1, Hồ Chí Minh
+                </p>
+                <p>
+                    <b>Điện thoại:</b> 1900 234 518 (Ext.9100/ 9102)
+                </p>
+                <p>
+                    <b>Fax:</b> (028) 6263 0379
+                </p>
+                <p>
+                    <b>Email:</b> sales@phuclong.masangroup.com <br>
+                    info2@phuclong.masangroup.com
+                </p>
+            </div>
+
+            <div id="ft2">
+                <p>Đăng kí nhận tin khuyến mãi</p>
+                <div>
+                    <input type="text" placeholder="Nhập địa chỉ email">
+                    <a href="#"><button>Gửi</button></a>
+                </div>
+                <p>Chính sách đặt hàng</p>
+                <p>Chính sách bảo mật thông tin</p>
+            </div>
+            <div id="ft3">
+                <img src="img/link.png" alt="">
+            </div>
+        </div>
+        <div class="ban-quyen">
+            <p>© 2017 Bản quyền Phuc Long Co., Ltd</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
